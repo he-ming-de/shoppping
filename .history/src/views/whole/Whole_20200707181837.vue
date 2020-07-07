@@ -1,0 +1,23 @@
+<template>
+  <div></div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  data() {
+    return {};
+  },
+  components: {},
+  methods: {},
+  mounted() {
+      this.$api.allGoods(page = 1, size = 10,)
+  },
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+</style>
